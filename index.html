@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Start</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Open Source</a></li>
+        </ul>
+        <a href="#" class="btn">Work With Me</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1><strong>Hey, I'm Charles</strong></h1>
+            <p>I help <span><u>start-ups</u></span> develop outstanding web products.</p>
+            <a href="#" class="btn">→ Work With Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="code.png" alt="Code Snippet">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="social-links">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="about.png" alt="About Me Image">
+            </div>
+            <div class="about-text">
+                <h2>ABOUT ME</h2>
+                <p>
+                    I am value Aenean commodo ligula eget dolor. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum repellendus quas sunt necessitatibus molestias.
+                </p>
+                <p>
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet 
+                    a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+                    Vivamus elementum semper nisi.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam consequuntur expedita odit veritatis. Aperiam, atque?
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services">
+        <h2 class="section-title">SERVICES</h2>
+        <div class="service-container">
+            <!-- Backend Development -->
+            <div class="service-box">
+                <div class="service-image">
+                    <img src="backend.png" alt="Backend Development">
+                </div>
+                <div class="service-content">
+                    <h3>Backend Development</h3>
+                    <p>
+                        Translating your complex business logics into secure and maintainable code. Custom websites 
+                        or services development with Laravel or Symfony and integrations with any SaaS platform like 
+                        Stripe or Amazon Web Services.
+                    </p>
+                    <a href="#" class="btn">→ WORK WITH ME</a>
+                </div>
+            </div>
+    
+            <!-- Frontend Development -->
+            <div class="service-box reverse">
+                <div class="service-image">
+                    <img src="frontend.png" alt="Frontend Development">
+                </div>
+                <div class="service-content">
+                    <h3>Frontend Development</h3>
+                    <p>
+                        Building your awesome product from a visual concept to a fully functional application. 
+                        Sketch integrations in Bootstrap or Material Design and modern single-page apps development 
+                        with Vue, React, or Angular.
+                    </p>
+                    <a href="#" class="btn">→ WORK WITH ME</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog-section">
+        <div class="blog-container">
+            <div class="blog-card blue">
+                <h3>Building a blog with Jekyll, Docker and GitLab</h3>
+                <p>May 20, 2015 - 2 minute read</p>
+                <p>Developing a Jekyll blog with Docker deployed to GitLab pages.</p>
+                <a href="#" class="read-btn">→ READ ARTICLE</a>
+            </div>
+            <div class="blog-card dark">
+                <h3>Business - A PHP library for business date calculations</h3>
+                <p>May 20, 2015 - 2 minute read</p>
+                <p>Discovering Business, a PHP Library to ease dealing with business date calculations.</p>
+                <a href="#" class="read-btn">→ READ ARTICLE</a>
+            </div>
+            <div class="blog-card light">
+                <h3>Data tables with Symfony, Hateoas and AngularJS</h3>
+                <p>May 20, 2015 - 2 minute read</p>
+                <p>Building a simple Angular table consuming a Hateoas REST API.</p>
+                <a href="#" class="read-btn">→ READ ARTICLE</a>
+            </div>
+            <div class="blog-card black">
+                <h3>Swap - A PHP exchange rates library</h3>
+                <p>May 20, 2015 - 5 minute read</p>
+                <p>Discovering Swap, an exchange rates library for PHP.</p>
+                <a href="#" class="read-btn">→ READ ARTICLE</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="opensource-section">
+        <h2 class="section-title">OPEN SOURCE</h2>
+        <div class="opensource-container">
+            <div class="opensource-card light">
+                <h3>Swap</h3>
+                <p>Currency exchange rates library for PHP.</p>
+                <span> 645 | ⭐ 324</span>
+            </div>
+            <div class="opensource-card black">
+                <h3>Swap</h3>
+                <p>Currency exchange rates library for PHP.</p>
+                <span> 645 | ⭐ 324</span>
+            </div>
+            <div class="opensource-card light">
+                <h3>Swap</h3>
+                <p>Currency exchange rates library for PHP.</p>
+                <span> 645 | ⭐ 324</span>
+            </div>
+        </div>
+        <div class="pagination-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <h3>Need help developing your application?</h3>
+        <p>Let's get in touch!</p>
+        <a href="#" class="btn">→ WORK WITH ME</a>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="logo.png" alt="Profile">
+                <p>Charles Van der Heijden</p>
+                <p>© 2025 - All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">GITHUB</a>
+                <a href="#">LINKEDIN</a>
+                <a href="#">TWITTER</a>
+            </div>
+        </div>
+    </footer>    
+<script src="web.js"></script>
+</body>
+</html>
